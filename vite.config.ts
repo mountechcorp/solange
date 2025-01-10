@@ -8,4 +8,10 @@ export default defineConfig({
     open: true,
     port: 3000,
   },
+  test: {
+    environment: "jsdom",
+    setupFiles: ["./src/setupTests.ts"],
+    testMatch: ["./tests/**/*.test.tsx"],
+    globals: true,
+  },
 });
