@@ -1,4 +1,4 @@
-import { Section } from "../../common/section/Section";
+import { Section } from "../../common/components/section/Section";
 
 export const Product = () => {
   return (
