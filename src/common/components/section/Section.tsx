@@ -6,11 +6,7 @@ interface SectionProps {
   background?: string;
 }
 
-export const Section = ({
-  title,
-  children,
-  background = "#FFFFFF",
-}: SectionProps) => {
+export const Section = ({ title, children, background }: SectionProps) => {
   const boxStyles = () => ({
     paddingTop: 10,
     paddingBottom: 10,
