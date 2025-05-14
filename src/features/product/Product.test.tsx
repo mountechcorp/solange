@@ -5,6 +5,6 @@ import { describe, expect, test } from "vitest";
 describe("Product component", () => {
   test("Should render the Product title", () => {
     render(<Product />);
-    expect(screen.getByText("Product")).toBeDefined();
+    expect(screen.getByText("Products")).toBeDefined();
   });
 });

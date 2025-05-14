@@ -5,6 +5,6 @@ import { describe, expect, test } from "vitest";
 describe("Footer component", () => {
   test("Should render the Footer title", () => {
     render(<Footer />);
-    expect(screen.getByText("Footer")).toBeDefined();
+    expect(screen.getByText("footer")).toBeDefined();
   });
 });

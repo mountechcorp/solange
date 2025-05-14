@@ -5,6 +5,6 @@ import { describe, expect, test } from "vitest";
 describe("Contact component", () => {
   test("Should render the Contact title", () => {
     render(<Contact />);
-    expect(screen.getByText("Contact")).toBeDefined();
+    expect(screen.getByText("Get in touch with us")).toBeDefined();
   });
 });

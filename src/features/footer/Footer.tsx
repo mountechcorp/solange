@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <Section title="About Us" background="#000000">
       <Typography variant="h5" color="primary">
-        ss
+        footer
       </Typography>
     </Section>
   );
