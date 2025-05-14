@@ -1,17 +1,27 @@
+import { defineConfig as testConfig } from "vitest/config";
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
-export default defineConfig({
+// Vite configuration
+const config = defineConfig({
   plugins: [react()],
   server: {
     open: true,
     port: 3000,
   },
+});
+
+// Vitest configuration
+const tstConfig = testConfig({
   test: {
     environment: "jsdom",
     setupFiles: ["./src/setupTests.ts"],
-    testMatch: ["./tests/**/*.test.tsx"],
     globals: true,
   },
 });
+
+// Merge configurations
+export default {
+  ...config,
+  ...tstConfig,
+};
