@@ -1,6 +1,6 @@
 import Grid from "@mui/material/Grid2";
 import { Section } from "../../common/components/section/Section";
-import { Box, Button, Link, Modal, Typography } from "@mui/material";
+import { Box, Button, Modal, Typography } from "@mui/material";
 import aboutImage from "../../assets/images/aboutus.jpg";
 import { useState } from "react";
 

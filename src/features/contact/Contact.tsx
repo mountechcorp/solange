@@ -23,15 +23,6 @@ export const Contact = () => {
     borderRadius: "4px",
   };
 
-  const leftGridCustomStyles = {
-    container: "container",
-    spacing: 2,
-    justifyContent: "center",
-    display: "flex",
-    alignItems: "center",
-    component: "div",
-  };
-
   return (
     <Section title="Contact Us" background="#D8AC54">
       <Box sx={{ flexGrow: 1 }}>
@@ -69,12 +60,24 @@ export const Contact = () => {
             </Box>
           </Grid>
           <Grid size={6}>
-            <Grid {...leftGridCustomStyles}>
-              <Grid size={6}></Grid>
+            <Grid
+              container
+              spacing={2}
+              justifyContent="center"
+              display="flex"
+              alignItems="center"
+            >
               <Box component="img" sx={imageStyles} src={contactImage} />
             </Grid>
 
-            <Grid {...leftGridCustomStyles} sx={{ marginTop: 5 }}>
+            <Grid
+              container
+              spacing={2}
+              justifyContent="center"
+              display="flex"
+              alignItems="center"
+              sx={{ marginTop: 5 }}
+            >
               <InstagramIcon />
               <FacebookIcon />
               <EmailIcon />
