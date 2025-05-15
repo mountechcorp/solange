@@ -34,10 +34,10 @@ export const About = () => {
     <Section title="About Us" background="#D8AC54">
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
-          <Grid size={6}>
+          <Grid size={{ xs: 16, md: 6, lg: 6 }}>
             <Box component="img" sx={imageStyles} src={aboutImage} />
           </Grid>
-          <Grid size={6}>
+          <Grid size={{ xs: 16, md: 6, lg: 6 }}>
             <Typography variant="subtitle1">Solange Lake</Typography>
             <Typography variant="subtitle2">-SoldBySol-</Typography>
             <Box sx={{ marginTop: 3 }}>{firstParagraph}</Box>

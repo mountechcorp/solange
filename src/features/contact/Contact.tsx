@@ -27,7 +27,7 @@ export const Contact = () => {
     <Section title="Contact Us" background="#D8AC54">
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
-          <Grid size={6} sx={formCustomStyles}>
+          <Grid size={{ xs: 16, md: 6, lg: 6 }} sx={formCustomStyles}>
             <Typography
               variant="h5"
               color="primary"
@@ -59,7 +59,7 @@ export const Contact = () => {
               </Button>
             </Box>
           </Grid>
-          <Grid size={6}>
+          <Grid size={{ xs: 16, md: 6, lg: 6 }}>
             <Grid
               container
               spacing={2}

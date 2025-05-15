@@ -10,9 +10,9 @@ export const Section = ({ title, children, background }: SectionProps) => {
   const boxStyles = () => ({
     paddingTop: 10,
     paddingBottom: 10,
-    paddingLeft: "15rem",
-    paddingRight: "15rem",
     background: background,
+    pl: { xs: 1, sm: 2, md: "15rem", lg: "15rem" },
+    pr: { xs: 1, sm: 2, md: "15rem", lg: "15rem" },
   });
 
   return (
