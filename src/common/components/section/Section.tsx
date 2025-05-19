@@ -4,7 +4,7 @@ interface SectionProps {
   title: string;
   children: string | JSX.Element;
   background?: string;
-  id: string;
+  id?: string;
 }
 
 export const Section = ({ title, children, background, id }: SectionProps) => {
