@@ -19,7 +19,7 @@ export const Product = () => {
   };
 
   return (
-    <Section title="Products">
+    <Section title="Products" id="Products">
       <>
         <Typography
           variant="body1"

@@ -13,6 +13,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
+import { Link } from "@mui/material";
 
 interface Props {
   /**
@@ -41,11 +42,13 @@ export const Header = (props: Props) => {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item} />
-            </ListItemButton>
-          </ListItem>
+          <a href={`#${item}`} key={item}>
+            <ListItem key={item} disablePadding>
+              <ListItemButton sx={{ textAlign: "center" }}>
+                <ListItemText primary={item} />
+              </ListItemButton>
+            </ListItem>
+          </a>
         ))}
       </List>
     </Box>
@@ -77,9 +80,11 @@ export const Header = (props: Props) => {
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: "#fff" }}>
-                {item}
-              </Button>
+              <a href={`#${item}`} key={item}>
+                <Button key={item} sx={{ color: "#fff" }}>
+                  {item}
+                </Button>
+              </a>
             ))}
           </Box>
         </Toolbar>

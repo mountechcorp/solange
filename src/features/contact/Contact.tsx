@@ -24,7 +24,7 @@ export const Contact = () => {
   };
 
   return (
-    <Section title="Contact Us" background="#D8AC54">
+    <Section title="Contact Us" background="#D8AC54" id="Contact">
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
           <Grid size={{ xs: 16, md: 6, lg: 6 }} sx={formCustomStyles}>

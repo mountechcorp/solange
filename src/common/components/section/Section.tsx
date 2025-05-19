@@ -4,9 +4,10 @@ interface SectionProps {
   title: string;
   children: string | JSX.Element;
   background?: string;
+  id: string;
 }
 
-export const Section = ({ title, children, background }: SectionProps) => {
+export const Section = ({ title, children, background, id }: SectionProps) => {
   const boxStyles = () => ({
     paddingTop: 10,
     paddingBottom: 10,
@@ -16,7 +17,7 @@ export const Section = ({ title, children, background }: SectionProps) => {
   });
 
   return (
-    <Box sx={boxStyles}>
+    <Box sx={boxStyles} id={id}>
       <Typography
         color={background ? "secondary" : "primary"}
         variant="h3"
