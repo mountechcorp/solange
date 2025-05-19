@@ -4,7 +4,11 @@ import { describe, expect, test } from "vitest";
 
 describe("Section component", () => {
   test("Should render the Section title", () => {
-    render(<Section title="test">Section</Section>);
+    render(
+      <Section title="test" id="test">
+        Section
+      </Section>
+    );
     expect(screen.getByText("Section")).toBeDefined();
   });
 });
