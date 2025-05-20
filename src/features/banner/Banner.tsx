@@ -15,10 +15,10 @@ export const Banner = () => {
   };
 
   return (
-    <Box sx={imageStyles} src={BannerImg}>
+    <Box sx={imageStyles}>
       <Box sx={{ pt: "100px" }}>
         <Grid container spacing={2}>
-          <Grid size={{ xs: 16, md: 6, lg: 6 }} sx={{ p: 20 }}>
+          <Grid sx={{ p: 20 }}>
             <Typography variant="h3">Lorem ipsum dolor sit</Typography>
             <Typography variant="subtitle1">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
