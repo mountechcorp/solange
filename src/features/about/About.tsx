@@ -31,7 +31,7 @@ export const About = () => {
     "My name is Solange Lake, and I was raised in the vibrant city of Mississauga, Ontario, in ahardworking middle-class family. From a young age, I was always a creative child, constantly expressing myself through arts and crafts. I was surrounded by diverse cultures and creativity, which fuelled my passion for making and creating beautiful things. As a black female entrepreneur, I have always believed in the power of self-expression and the importance of nurturing one's creativity. However, as I transitioned into adulthood, my creative ambitions gradually took a back seat to the practicalities of life, such as building a stable income and career.";
 
   return (
-    <Section title="About Us" background="#D8AC54" id="About">
+    <Section title="About Me" background="#D8AC54" id="About">
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
           <Grid size={{ xs: 16, md: 6, lg: 6 }}>

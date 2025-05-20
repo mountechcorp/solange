@@ -1,16 +1,38 @@
-import { Box, ImageListItem, ImageList } from "@mui/material";
-import { productsImage } from "../../productData";
+import {
+  Box,
+  ImageListItem,
+  ImageList,
+  ImageListItemBar,
+  IconButton,
+} from "@mui/material";
+import InfoIcon from "@mui/icons-material/Info";
 
-export const Gallery = () => (
+interface IGallery {
+  productList: IProductList[];
+}
+
+interface IProductList {
+  img: string;
+  title: string;
+}
+
+export const Gallery = ({ productList }: IGallery) => (
   <Box sx={{ width: "100%", height: 800, overflowY: "scroll" }}>
     <ImageList variant="masonry" cols={3} gap={8}>
-      {productsImage.map((item) => (
+      {productList.map((item) => (
         <ImageListItem key={item.img}>
-          <img
-            srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-            src={`${item.img}?w=248&fit=crop&auto=format`}
-            alt={item.title}
-            loading="lazy"
+          <img src={item.img} alt={item.title} loading="lazy" />
+          <ImageListItemBar
+            title={item.title}
+            subtitle={item.title}
+            actionIcon={
+              <IconButton
+                sx={{ color: "rgba(255, 255, 255, 0.54)" }}
+                aria-label={`info about ${item.title}`}
+              >
+                <InfoIcon />
+              </IconButton>
+            }
           />
         </ImageListItem>
       ))}

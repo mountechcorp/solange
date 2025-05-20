@@ -6,7 +6,6 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import EmailIcon from "@mui/icons-material/Email";
 import InputField from "./components/InputField";
-import { TikTokIcon } from "./components/TickTokIcon";
 
 export const Contact = () => {
   const imageStyles = {
@@ -81,7 +80,6 @@ export const Contact = () => {
               <InstagramIcon />
               <FacebookIcon />
               <EmailIcon />
-              <TikTokIcon />
             </Grid>
           </Grid>
         </Grid>

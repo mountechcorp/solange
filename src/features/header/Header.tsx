@@ -36,9 +36,8 @@ export const Header = (props: Props) => {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        <Box src={LogoImg} component="img" sx={{ borderRadius: 50 }}></Box>
-      </Typography>
+      <Box src={LogoImg} component="img" sx={{ borderRadius: 50 }}></Box>
+
       <Divider />
       <List>
         {navItems.map((item) => (

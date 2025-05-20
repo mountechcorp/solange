@@ -3,6 +3,7 @@ import { Section } from "../../common/components/section/Section";
 import { Gallery } from "./components/gallery/Gallery";
 import { useState } from "react";
 import { TabsContent } from "./components/TabsContent/TabsContent";
+import { drinkProducts, cardsProducts } from "./productData";
 
 function a11yProps(index: number) {
   return {
@@ -38,18 +39,14 @@ export const Product = () => {
             aria-label="basic tabs example"
           >
             <Tab label="Drink ware" {...a11yProps(0)} />
-            <Tab label="Apparel" {...a11yProps(1)} />
-            <Tab label="Cards/Invitations" {...a11yProps(2)} />
+            <Tab label="Cards/Invitations" {...a11yProps(1)} />
           </Tabs>
         </Box>
         <TabsContent value={value} index={0}>
-          <Gallery />
+          <Gallery productList={drinkProducts} />
         </TabsContent>
         <TabsContent value={value} index={1}>
-          <Gallery />
-        </TabsContent>
-        <TabsContent value={value} index={2}>
-          <Gallery />
+          <Gallery productList={cardsProducts} />
         </TabsContent>
       </>
     </Section>

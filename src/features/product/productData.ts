@@ -1,50 +1,90 @@
-export const productsImage = [
+export const drinkProducts = [
   {
-    img: "https://images.unsplash.com/photo-1549388604-817d15aa0110",
-    title: "Bed",
+    img: "src/assets/images/drink/IMG_2.jpeg",
+    title: "Drink",
   },
   {
-    img: "https://images.unsplash.com/photo-1525097487452-6278ff080c31",
-    title: "Books",
+    img: "src/assets/images/drink/IMG_3.jpeg",
+    title: "Drink",
   },
   {
-    img: "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6",
+    img: "src/assets/images/drink/IMG_1.jpeg",
     title: "Sink",
   },
   {
-    img: "https://images.unsplash.com/photo-1563298723-dcfebaa392e3",
+    img: "src/assets/images/drink/IMG_4.jpeg",
     title: "Kitchen",
   },
   {
-    img: "https://images.unsplash.com/photo-1588436706487-9d55d73a39e3",
+    img: "src/assets/images/drink/IMG_5.jpeg",
     title: "Blinds",
   },
   {
-    img: "https://images.unsplash.com/photo-1574180045827-681f8a1a9622",
+    img: "src/assets/images/drink/IMG_6.jpeg",
     title: "Chairs",
   },
   {
-    img: "https://images.unsplash.com/photo-1530731141654-5993c3016c77",
+    img: "src/assets/images/drink/IMG_7.jpeg",
     title: "Laptop",
   },
   {
-    img: "https://images.unsplash.com/photo-1481277542470-605612bd2d61",
+    img: "src/assets/images/drink/IMG_8.jpeg",
     title: "Doors",
   },
   {
-    img: "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7",
+    img: "src/assets/images/drink/IMG_12.jpeg",
     title: "Coffee",
   },
   {
-    img: "https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee",
+    img: "src/assets/images/drink/IMG_10.jpeg",
     title: "Storage",
   },
   {
-    img: "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62",
+    img: "src/assets/images/drink/IMG_11.jpeg",
     title: "Candle",
   },
   {
-    img: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+    img: "src/assets/images/drink/IMG_9.jpeg",
     title: "Coffee table",
   },
+  {
+    img: "src/assets/images/drink/IMG_13.jpeg",
+    title: "Coffee table",
+  },
+  {
+    img: "src/assets/images/drink/IMG_14.jpeg",
+    title: "Coffee table",
+  },
+  {
+    img: "src/assets/images/drink/IMG_15.jpeg",
+    title: "Coffee table",
+  },
+  {
+    img: "src/assets/images/drink/IMG_16.jpeg",
+    title: "Coffee table",
+  },
+  {
+    img: "src/assets/images/drink/IMG_17.jpeg",
+    title: "Coffee table",
+  },
+];
+
+export const cardsProducts = [
+  { img: "src/assets/images/cards/IMG_1-min.jpg", title: "Card" },
+  { img: "src/assets/images/cards/IMG_2-min.jpeg", title: "Card" },
+  { img: "src/assets/images/cards/IMG_3-min.jpeg", title: "Card" },
+  { img: "src/assets/images/cards/IMG_4-min.jpeg", title: "Card" },
+  { img: "src/assets/images/cards/IMG_5-min.jpeg", title: "Card" },
+  { img: "src/assets/images/cards/IMG_6-min.jpeg", title: "Card" },
+  { img: "src/assets/images/cards/IMG_7-min.jpeg", title: "Card" },
+  { img: "src/assets/images/cards/IMG_8-min.jpeg", title: "Card" },
+  { img: "src/assets/images/cards/IMG_9-min.jpeg", title: "Card" },
+  { img: "src/assets/images/cards/IMG_10-min.jpeg", title: "Card" },
+  { img: "src/assets/images/cards/IMG_11-min.jpeg", title: "Card" },
+  { img: "src/assets/images/cards/IMG_12-min.jpeg", title: "Card" },
+  { img: "src/assets/images/cards/IMG_13-min.jpeg", title: "Card" },
+  { img: "src/assets/images/cards/IMG_14-min.jpeg", title: "Card" },
+  { img: "src/assets/images/cards/IMG_15-min.jpeg", title: "Card" },
+  { img: "src/assets/images/cards/IMG_16-min.jpeg", title: "Card" },
+  { img: "src/assets/images/cards/IMG_17-min.jpeg", title: "Card" },
 ];
