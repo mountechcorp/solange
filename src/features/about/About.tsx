@@ -53,25 +53,7 @@ export const About = () => {
             >
               <Box sx={modalStyles}>
                 <Box sx={{ marginTop: 3 }}>{firstParagraph}</Box>
-                <Box sx={{ marginTop: 3 }}>
-                  Despite this shift, my strong determination and ambition never
-                  faded. I held onto the dream of pursuing my passion for
-                  crafting. In November 2023, I took a significant step in
-                  reclaiming m creative spirit and launched Sold By Sol. With
-                  determination and hard work, this venture allowed me to fully
-                  embrace my true calling—to create products that people will
-                  love, appreciate, and share with their loved ones. Through my
-                  journey, I have learned that exploring creativity is not just
-                  about creating beautiful things; it's about building a
-                  community and empowering others to follow their passions.
-                  Seeing the joy that my products has brought to my clients has
-                  been truly invaluable and inspiring. I am excited to continue
-                  growing my business, fostering connections within my community
-                  and hope to leave a lasting impact on those who encounter my
-                  work. I am grateful for the journey that has led me here and
-                  look forward to all the wonderful experiences and
-                  opportunities that lie ahead.
-                </Box>
+                <Box sx={{ marginTop: 3 }}></Box>
               </Box>
             </Modal>
           </Grid>

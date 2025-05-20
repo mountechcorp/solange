@@ -13,6 +13,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
+import LogoImg from "../../assets/images/logo.svg";
 
 interface Props {
   /**
@@ -36,7 +37,7 @@ export const Header = (props: Props) => {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        SoldBySol
+        <Box src={LogoImg} component="img" sx={{ borderRadius: 50 }}></Box>
       </Typography>
       <Divider />
       <List>
@@ -73,9 +74,18 @@ export const Header = (props: Props) => {
           <Typography
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
+            sx={{
+              flexGrow: 1,
+              display: { xs: "none", sm: "block", lg: "flex" },
+              justifyContent: "flex-start",
+              alignItems: "center",
+            }}
           >
-            SoldBySol
+            <Box
+              src={LogoImg}
+              component="img"
+              sx={{ borderRadius: "20%", height: 40 }}
+            ></Box>
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
