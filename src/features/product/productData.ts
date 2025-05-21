@@ -71,7 +71,7 @@ export const drinkProducts = [
 
 export const cardsProducts = [
   {
-    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_1-min.jpg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_1-min.jpg?raw=true",
     title: "Card",
   },
   {
