@@ -1,9 +1,6 @@
 import { Box } from "@mui/material";
 import { Section } from "../../common/components/section/Section";
 import LogoImg from "../../assets/images/logo.svg";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import EmailIcon from "@mui/icons-material/Email";
 import { SocialIcons } from "../../common/components/socialIcons/SocialIcons";
 
 export const Footer = () => {

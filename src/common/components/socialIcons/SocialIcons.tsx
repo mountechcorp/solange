@@ -6,10 +6,10 @@ import { TikTokIcon } from "../tikTokIcon/TickTokIcon";
 
 export const SocialIcons = ({
   color = "secondary",
-  ticktokColor,
+  ticktokColor = "#0000000",
 }: {
   color?: any;
-  ticktokColor: string;
+  ticktokColor?: string;
 }) => {
   return (
     <>

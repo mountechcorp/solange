@@ -1,90 +1,141 @@
 export const drinkProducts = [
   {
-    img: "src/assets/images/drink/IMG_2.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_3.jpeg?raw=true",
     title: "Drink",
   },
   {
-    img: "src/assets/images/drink/IMG_3.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_3.jpeg?raw=true",
     title: "Drink",
   },
   {
-    img: "src/assets/images/drink/IMG_1.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_1.jpeg?raw=true",
     title: "Sink",
   },
   {
-    img: "src/assets/images/drink/IMG_4.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_4.jpeg?raw=true",
     title: "Kitchen",
   },
   {
-    img: "src/assets/images/drink/IMG_5.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_5.jpeg?raw=true",
     title: "Blinds",
   },
   {
-    img: "src/assets/images/drink/IMG_6.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_6.jpeg?raw=true",
     title: "Chairs",
   },
   {
-    img: "src/assets/images/drink/IMG_7.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_7.jpeg?raw=true",
     title: "Laptop",
   },
   {
-    img: "src/assets/images/drink/IMG_8.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_8.jpeg?raw=true",
     title: "Doors",
   },
   {
-    img: "src/assets/images/drink/IMG_12.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_12.jpeg?raw=true",
     title: "Coffee",
   },
   {
-    img: "src/assets/images/drink/IMG_10.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_10.jpeg?raw=true",
     title: "Storage",
   },
   {
-    img: "src/assets/images/drink/IMG_11.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_11.jpeg?raw=true",
     title: "Candle",
   },
   {
-    img: "src/assets/images/drink/IMG_9.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_9.jpeg?raw=true",
     title: "Coffee table",
   },
   {
-    img: "src/assets/images/drink/IMG_13.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_13.jpeg?raw=true",
     title: "Coffee table",
   },
   {
-    img: "src/assets/images/drink/IMG_14.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_14.jpeg?raw=true",
     title: "Coffee table",
   },
   {
-    img: "src/assets/images/drink/IMG_15.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_15.jpeg?raw=true",
     title: "Coffee table",
   },
   {
-    img: "src/assets/images/drink/IMG_16.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_16.jpeg?raw=true",
     title: "Coffee table",
   },
   {
-    img: "src/assets/images/drink/IMG_17.jpeg",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_17.jpeg?raw=true",
     title: "Coffee table",
   },
 ];
 
 export const cardsProducts = [
-  { img: "src/assets/images/cards/IMG_1-min.jpg", title: "Card" },
-  { img: "src/assets/images/cards/IMG_2-min.jpeg", title: "Card" },
-  { img: "src/assets/images/cards/IMG_3-min.jpeg", title: "Card" },
-  { img: "src/assets/images/cards/IMG_4-min.jpeg", title: "Card" },
-  { img: "src/assets/images/cards/IMG_5-min.jpeg", title: "Card" },
-  { img: "src/assets/images/cards/IMG_6-min.jpeg", title: "Card" },
-  { img: "src/assets/images/cards/IMG_7-min.jpeg", title: "Card" },
-  { img: "src/assets/images/cards/IMG_8-min.jpeg", title: "Card" },
-  { img: "src/assets/images/cards/IMG_9-min.jpeg", title: "Card" },
-  { img: "src/assets/images/cards/IMG_10-min.jpeg", title: "Card" },
-  { img: "src/assets/images/cards/IMG_11-min.jpeg", title: "Card" },
-  { img: "src/assets/images/cards/IMG_12-min.jpeg", title: "Card" },
-  { img: "src/assets/images/cards/IMG_13-min.jpeg", title: "Card" },
-  { img: "src/assets/images/cards/IMG_14-min.jpeg", title: "Card" },
-  { img: "src/assets/images/cards/IMG_15-min.jpeg", title: "Card" },
-  { img: "src/assets/images/cards/IMG_16-min.jpeg", title: "Card" },
-  { img: "src/assets/images/cards/IMG_17-min.jpeg", title: "Card" },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_1-min.jpg",
+    title: "Card",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_2-min.jpeg?raw=true",
+    title: "Card",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_3-min.jpeg?raw=true",
+    title: "Card",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_4-min.jpeg?raw=true",
+    title: "Card",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_5-min.jpeg?raw=true",
+    title: "Card",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_6-min.jpeg?raw=true",
+    title: "Card",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_7-min.jpeg?raw=true",
+    title: "Card",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_8-min.jpeg?raw=true",
+    title: "Card",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_9-min.jpeg?raw=true",
+    title: "Card",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_10-min.jpeg?raw=true",
+    title: "Card",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_11-min.jpeg?raw=true",
+    title: "Card",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_12-min.jpeg?raw=true",
+    title: "Card",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_13-min.jpeg?raw=true",
+    title: "Card",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_14-min.jpeg?raw=true",
+    title: "Card",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_15-min.jpeg?raw=true",
+    title: "Card",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_16-min.jpeg?raw=true",
+    title: "Card",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/cards/IMG_17-min.jpeg?raw=true",
+    title: "Card",
+  },
 ];

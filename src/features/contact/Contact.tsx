@@ -1,12 +1,8 @@
 import Grid from "@mui/material/Grid2";
 import { Section } from "../../common/components/section/Section";
-import { Box, Button, Link, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import contactImage from "../../assets/images/logo.svg";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import EmailIcon from "@mui/icons-material/Email";
 import InputField from "./components/InputField";
-import { TikTokIcon } from "../../common/components/tikTokIcon/TickTokIcon";
 import { SocialIcons } from "../../common/components/socialIcons/SocialIcons";
 
 export const Contact = () => {
