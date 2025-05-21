@@ -5,57 +5,87 @@ import aboutImage from "../../assets/images/aboutus.jpg";
 import { useState } from "react";
 
 export const About = () => {
-  const [open, setOpen] = useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-
   const imageStyles = {
     height: "auto",
-    width: "50%",
+    width: "10%",
     borderRadius: "50%",
   };
-
-  const modalStyles = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    width: 400,
-    bgcolor: "background.paper",
-    border: "2px solid #000",
-    boxShadow: 24,
-    p: 4,
-  };
-
-  const firstParagraph =
-    "My name is Solange Lake, and I was raised in the vibrant city of Mississauga, Ontario, in ahardworking middle-class family. From a young age, I was always a creative child, constantly expressing myself through arts and crafts. I was surrounded by diverse cultures and creativity, which fuelled my passion for making and creating beautiful things. As a black female entrepreneur, I have always believed in the power of self-expression and the importance of nurturing one's creativity. However, as I transitioned into adulthood, my creative ambitions gradually took a back seat to the practicalities of life, such as building a stable income and career.";
 
   return (
     <Section title="About Me" background="#D8AC54" id="About">
       <Box sx={{ flexGrow: 1 }}>
-        <Grid container spacing={2}>
-          <Grid size={{ xs: 16, md: 6, lg: 6 }}>
-            <Box component="img" sx={imageStyles} src={aboutImage} />
+        <Grid container spacing={0}>
+          <Grid
+            size={{ xs: 16, md: 6, lg: 12 }}
+            justifyContent="center"
+            alignItems="center"
+            display="flex"
+          >
+            <Box
+              component="img"
+              sx={imageStyles}
+              width="200"
+              src={aboutImage}
+            />
           </Grid>
-          <Grid size={{ xs: 16, md: 6, lg: 6 }}>
-            <Typography variant="subtitle1">Solange Lake</Typography>
-            <Typography variant="subtitle2">-SoldBySol-</Typography>
-            <Box sx={{ marginTop: 3 }}>{firstParagraph}</Box>
-            <Button color="secondary" variant="text" onClick={handleOpen}>
-              Continue reading…
-            </Button>
 
-            <Modal
-              open={open}
-              onClose={handleClose}
-              aria-labelledby="modal-modal-title"
-              aria-describedby="modal-modal-description"
-            >
-              <Box sx={modalStyles}>
-                <Box sx={{ marginTop: 3 }}>{firstParagraph}</Box>
-                <Box sx={{ marginTop: 3 }}></Box>
-              </Box>
-            </Modal>
+          <Grid
+            size={{ xs: 16, md: 6, lg: 12 }}
+            justifyContent="center"
+            alignItems="center"
+            display="flex"
+          >
+            <Typography variant="subtitle1">Solange Lake</Typography>
+          </Grid>
+
+          <Grid
+            size={{ xs: 16, md: 6, lg: 12 }}
+            justifyContent="center"
+            alignItems="center"
+            display="flex"
+          >
+            <Typography variant="subtitle2">-Sold By Sol-</Typography>
+          </Grid>
+
+          <Grid size={{ xs: 16, md: 6, lg: 12 }}>
+            <Box sx={{ marginTop: 3 }}>
+              My name is Solange Lake, and from a young age, I found joy in
+              turning everyday materials into something beautiful. Raised in the
+              vibrant, multicultural city of Mississauga, Ontario, in a
+              hardworking middle-class family, I was constantly surrounded by
+              creativity. Arts and crafts were my outlet, and I found endless
+              inspiration in the diversity around me. As a Black female
+              entrepreneur, I’ve always believed in the power of self-expression
+              and the importance of nurturing creativity—not just in myself, but
+              in others.
+            </Box>
+
+            <Box sx={{ marginTop: 3 }}>
+              As I transitioned into adulthood, life’s practical
+              demands—building a stable income and career—took priority, and my
+              creative passions were quietly set aside. But they never
+              disappeared. In November 2023, I made a bold return to my roots
+              and launched Sold By Sol, a business born from purpose and
+              passion.
+            </Box>
+
+            <Box sx={{ marginTop: 3 }}>
+              With determination and vision, I’ve built more than a product
+              line—I’ve created a platform to share meaningful, handmade goods
+              that people can love, appreciate, and gift to others. Through this
+              chapter, I’ve learned that creativity isn’t just about making
+              beautiful things—it’s about building community, telling stories,
+              and empowering others to follow what inspires them.
+            </Box>
+
+            <Box sx={{ marginTop: 3 }}>
+              Seeing the joy my work brings to others has been one of the most
+              rewarding parts of this journey. I’m excited to continue growing
+              Sold By Sol, deepening connections in my community, and creating
+              pieces that leave a lasting impression. This is more than a
+              business - it's a creative movement grounded in purpose, passion
+              and craftsmanship. And I'm just getting started.
+            </Box>
           </Grid>
         </Grid>
       </Box>

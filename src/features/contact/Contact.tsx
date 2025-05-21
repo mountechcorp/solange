@@ -1,17 +1,19 @@
 import Grid from "@mui/material/Grid2";
 import { Section } from "../../common/components/section/Section";
-import { Box, Button, Typography } from "@mui/material";
-import contactImage from "../../assets/images/contact.jpg";
+import { Box, Button, Link, Typography } from "@mui/material";
+import contactImage from "../../assets/images/logo.svg";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import EmailIcon from "@mui/icons-material/Email";
 import InputField from "./components/InputField";
+import { TikTokIcon } from "../../common/components/tikTokIcon/TickTokIcon";
+import { SocialIcons } from "../../common/components/socialIcons/SocialIcons";
 
 export const Contact = () => {
   const imageStyles = {
     height: "auto",
     width: "50%",
-    borderRadius: "50%",
+    borderRadius: "10%",
   };
 
   const formCustomStyles = {
@@ -68,7 +70,6 @@ export const Contact = () => {
             >
               <Box component="img" sx={imageStyles} src={contactImage} />
             </Grid>
-
             <Grid
               container
               spacing={2}
@@ -77,9 +78,7 @@ export const Contact = () => {
               alignItems="center"
               sx={{ marginTop: 5 }}
             >
-              <InstagramIcon />
-              <FacebookIcon />
-              <EmailIcon />
+              <SocialIcons />
             </Grid>
           </Grid>
         </Grid>
