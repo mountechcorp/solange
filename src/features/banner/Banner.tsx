@@ -18,7 +18,7 @@ export const Banner = () => {
     <Box sx={imageStyles}>
       <Box sx={{ pt: "100px" }}>
         <Grid container spacing={2}>
-          <Grid sx={{ p: 20 }}>
+          <Grid sx={{ p: { xs: 5, sm: 5, md: "15rem", lg: "15rem" } }}>
             <Typography variant="h3">Lorem ipsum dolor sit</Typography>
             <Typography variant="subtitle1">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
