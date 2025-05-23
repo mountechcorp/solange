@@ -9,63 +9,63 @@ export const drinkProducts = [
   },
   {
     img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_1.jpeg?raw=true",
-    title: "Sink",
+    title: "Drink",
   },
   {
     img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_4.jpeg?raw=true",
-    title: "Kitchen",
+    title: "Drink",
   },
   {
     img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_5.jpeg?raw=true",
-    title: "Blinds",
+    title: "Drink",
   },
   {
     img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_6.jpeg?raw=true",
-    title: "Chairs",
+    title: "Drink",
   },
   {
     img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_7.jpeg?raw=true",
-    title: "Laptop",
+    title: "Drink",
   },
   {
     img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_8.jpeg?raw=true",
-    title: "Doors",
+    title: "Drink",
   },
   {
     img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_12.jpeg?raw=true",
-    title: "Coffee",
+    title: "Drink",
   },
   {
     img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_10.jpeg?raw=true",
-    title: "Storage",
+    title: "Drink",
   },
   {
     img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_11.jpeg?raw=true",
-    title: "Candle",
+    title: "Drink",
   },
   {
     img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_9.jpeg?raw=true",
-    title: "Coffee table",
+    title: "Drink",
   },
   {
     img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_13.jpeg?raw=true",
-    title: "Coffee table",
+    title: "Drink",
   },
   {
     img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_14.jpeg?raw=true",
-    title: "Coffee table",
+    title: "Drink",
   },
   {
     img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_15.jpeg?raw=true",
-    title: "Coffee table",
+    title: "Drink",
   },
   {
     img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_16.jpeg?raw=true",
-    title: "Coffee table",
+    title: "Drink",
   },
   {
     img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/drink/IMG_17.jpeg?raw=true",
-    title: "Coffee table",
+    title: "Drink",
   },
 ];
 

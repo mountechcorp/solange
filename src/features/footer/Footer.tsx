@@ -1,4 +1,4 @@
-import { Box } from "@mui/material";
+import { Box, Link } from "@mui/material";
 import { Section } from "../../common/components/section/Section";
 import LogoImg from "../../assets/images/logo.svg";
 import { SocialIcons } from "../../common/components/socialIcons/SocialIcons";
@@ -11,6 +11,16 @@ export const Footer = () => {
 
         <Box sx={{ mt: 3 }}>
           <SocialIcons color="primary" ticktokColor="#D8AC54" />
+        </Box>
+        <Box sx={{ mt: 3 }}>
+          <Link sx={{ mt: 5, cursor: "pointer" }} href="/privacy-policy">
+            Privacy Policy
+          </Link>
+        </Box>
+        <Box>
+          <Link sx={{ mt: 5, cursor: "pointer" }} href="/terms-and-conditions">
+            Terms & Conditions
+          </Link>
         </Box>
       </>
     </Section>
