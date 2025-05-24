@@ -14,10 +14,22 @@ export const Footer = () => {
           <SocialIcons color="primary" ticktokColor="#D8AC54" />
         </Box>
         <Box sx={{ mt: 3 }}>
-          <Link to="/privacy-policy">Privacy Policy</Link>
+          <Link
+            style={{ color: "#D8AC54" }}
+            to="/privacy-policy"
+            reloadDocument
+          >
+            Privacy Policy
+          </Link>
         </Box>
         <Box>
-          <Link to="/terms-and-conditions">Terms & Conditions</Link>
+          <Link
+            style={{ color: "#D8AC54" }}
+            to="/terms-and-conditions"
+            reloadDocument
+          >
+            Terms & Conditions
+          </Link>
         </Box>
       </>
     </Section>
