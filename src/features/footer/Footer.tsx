@@ -1,7 +1,8 @@
-import { Box, Link } from "@mui/material";
+import { Box } from "@mui/material";
 import { Section } from "../../common/components/section/Section";
 import LogoImg from "../../assets/images/logo.svg";
 import { SocialIcons } from "../../common/components/socialIcons/SocialIcons";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -13,14 +14,10 @@ export const Footer = () => {
           <SocialIcons color="primary" ticktokColor="#D8AC54" />
         </Box>
         <Box sx={{ mt: 3 }}>
-          <Link sx={{ mt: 5, cursor: "pointer" }} href="/privacy-policy">
-            Privacy Policy
-          </Link>
+          <Link to="/privacy-policy">Privacy Policy</Link>
         </Box>
         <Box>
-          <Link sx={{ mt: 5, cursor: "pointer" }} href="/terms-and-conditions">
-            Terms & Conditions
-          </Link>
+          <Link to="/terms-and-conditions">Terms & Conditions</Link>
         </Box>
       </>
     </Section>
