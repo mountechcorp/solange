@@ -1,5 +1,6 @@
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Button, Grid, Typography } from "@mui/material";
 import BannerImg from "../../assets/images/banner.jpg";
+import { Link } from "react-router-dom";
 
 export const Banner = () => {
   const imageStyles = {
@@ -18,15 +19,23 @@ export const Banner = () => {
     <Box sx={imageStyles}>
       <Box sx={{ pt: "100px" }}>
         <Grid container spacing={2}>
-          <Grid lg={6}></Grid>
-          <Grid sx={{ p: { xs: 5, sm: 5, md: "6rem", lg: "6rem" } }} lg={6}>
-            <Typography variant="h3">Lorem ipsum dolor sit</Typography>
-            <Typography variant="subtitle1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
-              qui magnam. Odit assumenda praesentium voluptatem dolores ad
-              laborum sit eius voluptatibus commodi eveniet, laudantium,
-              accusamus repudiandae maxime doloremque? Aperiam, eius.
+          <Grid
+            sx={{
+              p: { xs: 5, sm: 5, md: "6rem", lg: "6rem" },
+              textAlign: "center",
+            }}
+            lg={16}
+          >
+            <Typography variant="h3" sx={{ mb: 4, color: "#7d7e82" }}>
+              The Perfect Gift Awaits
             </Typography>
+            <Typography variant="subtitle2" sx={{ mb: 4, color: "7d7e82" }}>
+              Explore our collection of unique and thoughtful gifts.
+            </Typography>
+
+            <Button variant="outlined" href="#Products">
+              Show now
+            </Button>
           </Grid>
         </Grid>
       </Box>
