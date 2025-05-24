@@ -41,7 +41,7 @@ export const Header = (props: Props) => {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <a href={`#${item}`} key={item}>
+          <a href={`/#${item}`} key={item}>
             <ListItem key={item} disablePadding>
               <ListItemButton sx={{ textAlign: "center" }}>
                 <ListItemText primary={item} />
@@ -88,7 +88,7 @@ export const Header = (props: Props) => {
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item) => (
-              <a href={`#${item}`} key={item}>
+              <a href={`/#${item}`} key={item}>
                 <Button key={item} sx={{ color: "#fff" }}>
                   {item}
                 </Button>
