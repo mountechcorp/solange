@@ -25,17 +25,22 @@ export const Banner = () => {
             }}
             lg={16}
           >
-            <Typography variant="h3" sx={{ mb: 4, color: "#7d7e82" }}>
+            <Typography variant="h3" sx={{ mb: 4, color: "#5E6472" }}>
               The Perfect Gift Awaits
             </Typography>
-            <Typography variant="subtitle2" sx={{ mb: 4, color: "7d7e82" }}>
+            <Typography variant="subtitle2" sx={{ mb: 4, color: "5E6472" }}>
               Explore our collection of unique and thoughtful gifts.
             </Typography>
 
             <Button variant="contained" href="#Products">
-              Show now
+              Shop now
             </Button>
-            <Button sx={{ ml: 3 }} variant="outlined" href="#Products">
+            <Button
+              sx={{ ml: 3 }}
+              variant="outlined"
+              color="secondary"
+              href="#Products"
+            >
               Contact Us
             </Button>
           </Grid>
