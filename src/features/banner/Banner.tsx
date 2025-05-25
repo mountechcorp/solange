@@ -1,6 +1,5 @@
 import { Box, Button, Grid, Typography } from "@mui/material";
 import BannerImg from "../../assets/images/banner.jpg";
-import { Link } from "react-router-dom";
 
 export const Banner = () => {
   const imageStyles = {
@@ -33,8 +32,11 @@ export const Banner = () => {
               Explore our collection of unique and thoughtful gifts.
             </Typography>
 
-            <Button variant="outlined" href="#Products">
+            <Button variant="contained" href="#Products">
               Show now
+            </Button>
+            <Button sx={{ ml: 3 }} variant="outlined" href="#Products">
+              Contact Us
             </Button>
           </Grid>
         </Grid>
