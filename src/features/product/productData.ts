@@ -165,7 +165,7 @@ export const apparelProducts = [
 
 export const bookmarksProducts = [
   {
-    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/bookmarks/IMG_1-min.jpeg?raw=true",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/bookmarks/IMG_4-min.jpeg?raw=true",
     title: "Apparel",
   },
   {
@@ -177,11 +177,7 @@ export const bookmarksProducts = [
     title: "Apparel",
   },
   {
-    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/bookmarks/IMG_4-min.jpeg?raw=true",
-    title: "Apparel",
-  },
-  {
-    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/bookmarks/IMG_5-min.jpeg?raw=true",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/bookmarks/IMG_1-min.jpeg?raw=true",
     title: "Apparel",
   },
 ];
