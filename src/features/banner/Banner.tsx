@@ -39,7 +39,7 @@ export const Banner = () => {
               sx={{ ml: 3 }}
               variant="outlined"
               color="secondary"
-              href="#Products"
+              href="#Contact"
             >
               Contact Us
             </Button>
