@@ -40,6 +40,7 @@ export const Product = () => {
           >
             <Tab label="Drink ware" {...a11yProps(0)} />
             <Tab label="Cards/Invitations" {...a11yProps(1)} />
+            <Tab label="Apparel" {...a11yProps(2)} />
           </Tabs>
         </Box>
         <TabsContent value={value} index={0}>
