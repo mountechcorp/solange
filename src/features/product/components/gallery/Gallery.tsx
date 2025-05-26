@@ -26,7 +26,7 @@ export const Gallery = ({ productList }: IGallery) => {
   const isSm = useMediaQuery(theme.breakpoints.between("sm", "md")); // 600-900px
 
   let cols = 3;
-  if (isXs) cols = 1;
+  if (isXs) cols = 2;
   else if (isSm) cols = 2;
   return (
     <>
