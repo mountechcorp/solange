@@ -3,7 +3,12 @@ import { Section } from "../../common/components/section/Section";
 import { Gallery } from "./components/gallery/Gallery";
 import { useState } from "react";
 import { TabsContent } from "./components/TabsContent/TabsContent";
-import { drinkProducts, cardsProducts, apparelProducts } from "./productData";
+import {
+  drinkProducts,
+  cardsProducts,
+  apparelProducts,
+  bookmarksProducts,
+} from "./productData";
 
 function a11yProps(index: number) {
   return {
@@ -41,6 +46,7 @@ export const Product = () => {
             <Tab label="Drink ware" {...a11yProps(0)} />
             <Tab label="Cards/Invitations" {...a11yProps(1)} />
             <Tab label="Apparel" {...a11yProps(2)} />
+            <Tab label="Bookmarks" {...a11yProps(2)} />
           </Tabs>
         </Box>
         <TabsContent value={value} index={0}>
@@ -51,6 +57,9 @@ export const Product = () => {
         </TabsContent>
         <TabsContent value={value} index={2}>
           <Gallery productList={apparelProducts} />
+        </TabsContent>
+        <TabsContent value={value} index={2}>
+          <Gallery productList={bookmarksProducts} />
         </TabsContent>
       </>
     </Section>

@@ -142,23 +142,46 @@ export const cardsProducts = [
 
 export const apparelProducts = [
   {
-    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/apparel/IMG_1-min.jpg?raw=true",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/apparel/IMG_4-min.jpeg?raw=true",
     title: "Apparel",
   },
   {
-    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/apparel/IMG_2-min.jpg?raw=true",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/apparel/IMG_4-min.jpeg?raw=true",
     title: "Apparel",
   },
   {
-    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/apparel/IMG_3-min.jpg?raw=true",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/apparel/IMG_3-min.jpeg?raw=true",
     title: "Apparel",
   },
   {
-    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/apparel/IMG_4-min.jpg?raw=true",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/apparel/IMG_5-min.jpeg?raw=true",
     title: "Apparel",
   },
   {
-    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/apparel/IMG_5-min.jpg?raw=true",
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/apparel/IMG_2-min.jpeg?raw=true",
+    title: "Apparel",
+  },
+];
+
+export const bookmarksProducts = [
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/bookmarks/IMG_1-min.jpeg?raw=true",
+    title: "Apparel",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/bookmarks/IMG_2-min.jpeg?raw=true",
+    title: "Apparel",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/bookmarks/IMG_3-min.jpeg?raw=true",
+    title: "Apparel",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/bookmarks/IMG_4-min.jpeg?raw=true",
+    title: "Apparel",
+  },
+  {
+    img: "https://github.com/mountechcorp/solange/blob/main/src/assets/images/bookmarks/IMG_5-min.jpeg?raw=true",
     title: "Apparel",
   },
 ];
